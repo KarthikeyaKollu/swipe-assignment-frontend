@@ -3,6 +3,10 @@
   <img src="public/banner.png" alt="Banner" />
 </div>
 
+
+
+
+
 <p></p>
 
 
@@ -36,7 +40,7 @@
 
 <p>This is the working demo for the assignment</p>
 
-[Chat Interface Overview](https://github.com/user-attachments/assets/3ddcb5f3-9583-4d00-bcf0-2b85db09f139)
+[Chat Interface Overview](https://github.com/user-attachments/assets/470e4e08-5950-4962-9aaa-bd99c16c1585)
 
 
 # Product Tab and Invoice Integration
