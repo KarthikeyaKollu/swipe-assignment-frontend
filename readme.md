@@ -11,7 +11,7 @@
 
 
 <div align="center" >
-  <h1>LinkedIn AI Reply</h1>
+  <h1>Dashboard</h1>
   
   <p>Feel free to connect with me on the following platforms:</p>
 <div>
