@@ -88,7 +88,7 @@
 # My Learning Curve and Development Process
 
 * **Previous Experience:**
-  * Before this project, I hadn’t worked extensively with Bootstrap. My experience was primarily with React, Tailwind, and TypeScript.
+  * Before this project, I hadn’t worked  with Bootstrap. My experience was primarily with React, Tailwind, and TypeScript.
 
 * **Converting Images to Code:**
   * The process of converting images to code took me around 30-50 minutes.
