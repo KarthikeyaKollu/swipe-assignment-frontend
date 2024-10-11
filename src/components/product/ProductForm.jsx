@@ -3,6 +3,9 @@ import { Form, Button, Row, Col } from 'react-bootstrap';
 import { useDispatch } from "react-redux";
 import { addProduct, updateProduct } from "../../redux/productsSlice";
 import { BiArrowBack } from "react-icons/bi";
+import { BsPlusLg } from 'react-icons/bs';
+import { BsPencilSquare } from 'react-icons/bs'
+
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { useProductListData, useCurrencyData } from "../../redux/hooks";
 import GeneralInfo from './GeneralInfo';
@@ -219,12 +222,12 @@ const ProductForm = () => {
 
               {isEditing ? (
                 <>
-                  <i className="bi bi-pencil-square me-2"></i>
+                  <BsPencilSquare className="me-2" />
                   Update Product
                 </>
               ) : (
                 <>
-                  <i className="bi bi-plus-lg me-2"></i>
+                  <BsPlusLg className="me-2" />
                   Add Product
                 </>
               )}

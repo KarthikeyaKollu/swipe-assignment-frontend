@@ -5,7 +5,7 @@ import { useProductListData } from '../redux/hooks';
 import { useNavigate } from 'react-router-dom';
 import { useCurrencyData } from '../redux/hooks';
 import _ from 'lodash'; // For debouncing user input
-
+import { BsPlusLg } from 'react-icons/bs';
 const ProductList = () => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState(''); // Search query state
@@ -61,7 +61,7 @@ const ProductList = () => {
 
         {/* Add Product Button */}
         <Button variant="primary" onClick={() => navigate('/addproduct')}>
-          <i className="bi bi-plus-lg me-2"></i>
+        <BsPlusLg className="me-2" />
           Add Product
         </Button>
       </div>

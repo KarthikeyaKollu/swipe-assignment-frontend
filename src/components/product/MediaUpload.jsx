@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form,Card } from 'react-bootstrap';
 import { BiTrash } from "react-icons/bi";
+import { BsUpload } from 'react-icons/bs';
 
 const MediaUpload = ({ images, handleImageUpload, handleRemoveImage, handleDragOver, handleDragLeave, handleDrop }) => {
   return (
@@ -16,7 +17,7 @@ const MediaUpload = ({ images, handleImageUpload, handleRemoveImage, handleDragO
           style={{ background: "#e2e6f5" }}
         >
           <div className="d-flex flex-column align-items-center">
-            <i className="bi bi-upload" style={{ fontSize: '24px', color: '#243ee3' }}></i>
+          <BsUpload style={{ fontSize: '24px', color: '#243ee3' }} />
             <Form.Label className="d-block text-muted mt-2" style={{ cursor: 'pointer' }}>
               Click to upload or drag and drop
             </Form.Label>
